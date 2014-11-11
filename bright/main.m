@@ -7,39 +7,40 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "TSBright.h"
 
-@interface Bright : NSObject
-
-- (void)setBrightnessTo:(int)level;
-
-@end
-
-@implementation Bright
-
-- (void)setBrightnessTo:(int)level
-{
-    // change level from int(0 ~ 100) to float (0 ~ 1)
-    float lvl = (float)level / 100;
-    
-    io_iterator_t iterator;
-    kern_return_t result = IOServiceGetMatchingServices(kIOMasterPortDefault,
-                                                        IOServiceMatching("IODisplayConnect"),
-                                                        &iterator);
-    // If we were successful
-    if (result == kIOReturnSuccess) {
-        io_object_t service;
-        while ((service = IOIteratorNext(iterator))) {
-            IODisplaySetFloatParameter(service, kNilOptions, CFSTR(kIODisplayBrightnessKey), lvl);
-            
-            // Let the object go
-            IOObjectRelease(service);
-            
-            return;
-        }
-    }
-}
-
-@end
+//@interface Bright : NSObject
+//
+//- (void)setBrightnessTo:(int)level;
+//
+//@end
+//
+//@implementation Bright
+//
+//- (void)setBrightnessTo:(int)level
+//{
+//    // change level from int(0 ~ 100) to float (0 ~ 1)
+//    float lvl = (float)level / 100;
+//    
+//    io_iterator_t iterator;
+//    kern_return_t result = IOServiceGetMatchingServices(kIOMasterPortDefault,
+//                                                        IOServiceMatching("IODisplayConnect"),
+//                                                        &iterator);
+//    // If we were successful
+//    if (result == kIOReturnSuccess) {
+//        io_object_t service;
+//        while ((service = IOIteratorNext(iterator))) {
+//            IODisplaySetFloatParameter(service, kNilOptions, CFSTR(kIODisplayBrightnessKey), lvl);
+//            
+//            // Let the object go
+//            IOObjectRelease(service);
+//            
+//            return;
+//        }
+//    }
+//}
+//
+//@end
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
@@ -67,7 +68,7 @@ int main(int argc, const char * argv[]) {
             
         }
         
-        Bright *bright = [[Bright alloc] init];
+        TSBright *bright = [[TSBright alloc] init];
         [bright setBrightnessTo:lvl];
         
     }

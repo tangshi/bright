@@ -72,6 +72,7 @@
 				091057E21A11FA7600DD8384 /* Sources */,
 				091057E31A11FA7600DD8384 /* Frameworks */,
 				091057E41A11FA7600DD8384 /* CopyFiles */,
+				091057F11A1212C000DD8384 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -112,6 +113,22 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		091057F11A1212C000DD8384 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "# 将编译生成的bright文件移动到/usr/local/bin/\nmv -f \"$BUILT_PRODUCTS_DIR/bright\" /usr/local/bin/\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		091057E21A11FA7600DD8384 /* Sources */ = {

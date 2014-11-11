@@ -43,15 +43,17 @@
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        
+        int lvl;
         if (argc <= 1) {
-            printf("Please input a integer ranging from 0 to 100.\n");
+            printf("bright needs a integer as argument ranging from 0 to 100.\n");
+            printf("since there is no input, the bright value will be set to 0 as default.\n");
+            lvl = 0;
         }
         else {
             NSString *str = [[NSString alloc] initWithUTF8String:argv[1]];
             NSNumberFormatter *numberFormatter = [[NSNumberFormatter alloc] init];
             NSNumber *number = [numberFormatter numberFromString:str];
-            int lvl = [number intValue];
+            lvl = [number intValue];
             if (lvl < 0) {
                 printf("The input integer ranges from 0 to 100.\n");
                 printf("%d is less than 0 and it will be set to the minimum value, 0.", lvl);
@@ -63,11 +65,13 @@ int main(int argc, const char * argv[]) {
                 lvl = 100;
             }
             
-            Bright *bright = [[Bright alloc] init];
-            [bright setBrightnessTo:lvl];
         }
         
+        Bright *bright = [[Bright alloc] init];
+        [bright setBrightnessTo:lvl];
+        
     }
+    
     return 0;
 }
 

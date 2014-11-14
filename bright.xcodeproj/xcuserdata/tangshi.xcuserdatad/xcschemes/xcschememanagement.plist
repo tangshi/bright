@@ -9,11 +9,6 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
-		<key>brightBar.xcscheme</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>1</integer>
-		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
@@ -28,6 +23,16 @@
 			<true/>
 		</dict>
 		<key>091058071A12221D00DD8384</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>09FB23281A160A4600D1BFB6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>09FB233A1A160A4700D1BFB6</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		091057EA1A11FA7600DD8384 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 091057E91A11FA7600DD8384 /* main.m */; };
-		094D3E5C1A122F7C00729E3B /* TSBright.m in Sources */ = {isa = PBXBuildFile; fileRef = 094D3E5A1A122F4600729E3B /* TSBright.m */; };
+		09FB23241A1609ED00D1BFB6 /* TSBright.m in Sources */ = {isa = PBXBuildFile; fileRef = 09FB23231A1609ED00D1BFB6 /* TSBright.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,8 +26,8 @@
 /* Begin PBXFileReference section */
 		091057E61A11FA7600DD8384 /* bright */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = bright; sourceTree = BUILT_PRODUCTS_DIR; };
 		091057E91A11FA7600DD8384 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		094D3E591A122F4600729E3B /* TSBright.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TSBright.h; path = brightBar/TSBright.h; sourceTree = "<group>"; };
-		094D3E5A1A122F4600729E3B /* TSBright.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TSBright.m; path = brightBar/TSBright.m; sourceTree = "<group>"; };
+		09FB23221A1609ED00D1BFB6 /* TSBright.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSBright.h; sourceTree = "<group>"; };
+		09FB23231A1609ED00D1BFB6 /* TSBright.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSBright.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,8 +44,8 @@
 		091057DD1A11FA7500DD8384 = {
 			isa = PBXGroup;
 			children = (
-				094D3E591A122F4600729E3B /* TSBright.h */,
-				094D3E5A1A122F4600729E3B /* TSBright.m */,
+				09FB23221A1609ED00D1BFB6 /* TSBright.h */,
+				09FB23231A1609ED00D1BFB6 /* TSBright.m */,
 				091057E81A11FA7600DD8384 /* bright */,
 				091057E71A11FA7600DD8384 /* Products */,
 			);
@@ -141,7 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				094D3E5C1A122F7C00729E3B /* TSBright.m in Sources */,
+				09FB23241A1609ED00D1BFB6 /* TSBright.m in Sources */,
 				091057EA1A11FA7600DD8384 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

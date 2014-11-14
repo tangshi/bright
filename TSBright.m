@@ -33,8 +33,4 @@
     }
 }
 
-- (void)action {
-    [self setBrightnessTo:0];
-}
-
 @end

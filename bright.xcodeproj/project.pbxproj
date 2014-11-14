@@ -8,25 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		091057EA1A11FA7600DD8384 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 091057E91A11FA7600DD8384 /* main.m */; };
-		091057FC1A12221D00DD8384 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 091057FB1A12221D00DD8384 /* AppDelegate.m */; };
-		091057FE1A12221D00DD8384 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 091057FD1A12221D00DD8384 /* main.m */; };
-		091058001A12221D00DD8384 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 091057FF1A12221D00DD8384 /* Images.xcassets */; };
-		0910580F1A12221D00DD8384 /* brightBarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0910580E1A12221D00DD8384 /* brightBarTests.m */; };
-		094D3E561A122E7B00729E3B /* brightness-sun-transparent-black.icns in Resources */ = {isa = PBXBuildFile; fileRef = 094D3E551A122E7B00729E3B /* brightness-sun-transparent-black.icns */; };
-		094D3E581A122E8700729E3B /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 094D3E571A122E8700729E3B /* icon.png */; };
-		094D3E5B1A122F4600729E3B /* TSBright.m in Sources */ = {isa = PBXBuildFile; fileRef = 094D3E5A1A122F4600729E3B /* TSBright.m */; };
 		094D3E5C1A122F7C00729E3B /* TSBright.m in Sources */ = {isa = PBXBuildFile; fileRef = 094D3E5A1A122F4600729E3B /* TSBright.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		091058091A12221D00DD8384 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 091057DE1A11FA7500DD8384 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 091057F51A12221D00DD8384;
-			remoteInfo = brightBar;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		091057E41A11FA7600DD8384 /* CopyFiles */ = {
@@ -43,37 +26,12 @@
 /* Begin PBXFileReference section */
 		091057E61A11FA7600DD8384 /* bright */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = bright; sourceTree = BUILT_PRODUCTS_DIR; };
 		091057E91A11FA7600DD8384 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		091057F61A12221D00DD8384 /* brightBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = brightBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		091057F91A12221D00DD8384 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		091057FA1A12221D00DD8384 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		091057FB1A12221D00DD8384 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		091057FD1A12221D00DD8384 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		091057FF1A12221D00DD8384 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		091058081A12221D00DD8384 /* brightBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = brightBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0910580D1A12221D00DD8384 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0910580E1A12221D00DD8384 /* brightBarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = brightBarTests.m; sourceTree = "<group>"; };
-		094D3E551A122E7B00729E3B /* brightness-sun-transparent-black.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "brightness-sun-transparent-black.icns"; sourceTree = "<group>"; };
-		094D3E571A122E8700729E3B /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		094D3E591A122F4600729E3B /* TSBright.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TSBright.h; path = brightBar/TSBright.h; sourceTree = "<group>"; };
 		094D3E5A1A122F4600729E3B /* TSBright.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TSBright.m; path = brightBar/TSBright.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		091057E31A11FA7600DD8384 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		091057F31A12221D00DD8384 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		091058051A12221D00DD8384 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -89,8 +47,6 @@
 				094D3E591A122F4600729E3B /* TSBright.h */,
 				094D3E5A1A122F4600729E3B /* TSBright.m */,
 				091057E81A11FA7600DD8384 /* bright */,
-				091057F71A12221D00DD8384 /* brightBar */,
-				0910580B1A12221D00DD8384 /* brightBarTests */,
 				091057E71A11FA7600DD8384 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -99,8 +55,6 @@
 			isa = PBXGroup;
 			children = (
 				091057E61A11FA7600DD8384 /* bright */,
-				091057F61A12221D00DD8384 /* brightBar.app */,
-				091058081A12221D00DD8384 /* brightBarTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -111,45 +65,6 @@
 				091057E91A11FA7600DD8384 /* main.m */,
 			);
 			path = bright;
-			sourceTree = "<group>";
-		};
-		091057F71A12221D00DD8384 /* brightBar */ = {
-			isa = PBXGroup;
-			children = (
-				091057FA1A12221D00DD8384 /* AppDelegate.h */,
-				091057FB1A12221D00DD8384 /* AppDelegate.m */,
-				091057FF1A12221D00DD8384 /* Images.xcassets */,
-				094D3E551A122E7B00729E3B /* brightness-sun-transparent-black.icns */,
-				094D3E571A122E8700729E3B /* icon.png */,
-				091057F81A12221D00DD8384 /* Supporting Files */,
-			);
-			path = brightBar;
-			sourceTree = "<group>";
-		};
-		091057F81A12221D00DD8384 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				091057F91A12221D00DD8384 /* Info.plist */,
-				091057FD1A12221D00DD8384 /* main.m */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		0910580B1A12221D00DD8384 /* brightBarTests */ = {
-			isa = PBXGroup;
-			children = (
-				0910580E1A12221D00DD8384 /* brightBarTests.m */,
-				0910580C1A12221D00DD8384 /* Supporting Files */,
-			);
-			path = brightBarTests;
-			sourceTree = "<group>";
-		};
-		0910580C1A12221D00DD8384 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				0910580D1A12221D00DD8384 /* Info.plist */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -173,41 +88,6 @@
 			productReference = 091057E61A11FA7600DD8384 /* bright */;
 			productType = "com.apple.product-type.tool";
 		};
-		091057F51A12221D00DD8384 /* brightBar */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 091058141A12221D00DD8384 /* Build configuration list for PBXNativeTarget "brightBar" */;
-			buildPhases = (
-				091057F21A12221D00DD8384 /* Sources */,
-				091057F31A12221D00DD8384 /* Frameworks */,
-				091057F41A12221D00DD8384 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = brightBar;
-			productName = brightBar;
-			productReference = 091057F61A12221D00DD8384 /* brightBar.app */;
-			productType = "com.apple.product-type.application";
-		};
-		091058071A12221D00DD8384 /* brightBarTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 091058151A12221D00DD8384 /* Build configuration list for PBXNativeTarget "brightBarTests" */;
-			buildPhases = (
-				091058041A12221D00DD8384 /* Sources */,
-				091058051A12221D00DD8384 /* Frameworks */,
-				091058061A12221D00DD8384 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				0910580A1A12221D00DD8384 /* PBXTargetDependency */,
-			);
-			name = brightBarTests;
-			productName = brightBarTests;
-			productReference = 091058081A12221D00DD8384 /* brightBarTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -219,13 +99,6 @@
 				TargetAttributes = {
 					091057E51A11FA7600DD8384 = {
 						CreatedOnToolsVersion = 6.1;
-					};
-					091057F51A12221D00DD8384 = {
-						CreatedOnToolsVersion = 6.1;
-					};
-					091058071A12221D00DD8384 = {
-						CreatedOnToolsVersion = 6.1;
-						TestTargetID = 091057F51A12221D00DD8384;
 					};
 				};
 			};
@@ -243,31 +116,9 @@
 			projectRoot = "";
 			targets = (
 				091057E51A11FA7600DD8384 /* bright */,
-				091057F51A12221D00DD8384 /* brightBar */,
-				091058071A12221D00DD8384 /* brightBarTests */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXResourcesBuildPhase section */
-		091057F41A12221D00DD8384 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				091058001A12221D00DD8384 /* Images.xcassets in Resources */,
-				094D3E561A122E7B00729E3B /* brightness-sun-transparent-black.icns in Resources */,
-				094D3E581A122E8700729E3B /* icon.png in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		091058061A12221D00DD8384 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
 		091057F11A1212C000DD8384 /* ShellScript */ = {
@@ -295,33 +146,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		091057F21A12221D00DD8384 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				091057FE1A12221D00DD8384 /* main.m in Sources */,
-				094D3E5B1A122F4600729E3B /* TSBright.m in Sources */,
-				091057FC1A12221D00DD8384 /* AppDelegate.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		091058041A12221D00DD8384 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0910580F1A12221D00DD8384 /* brightBarTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		0910580A1A12221D00DD8384 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 091057F51A12221D00DD8384 /* brightBar */;
-			targetProxy = 091058091A12221D00DD8384 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		091057EB1A11FA7600DD8384 /* Debug */ = {
@@ -412,70 +237,6 @@
 			};
 			name = Release;
 		};
-		091058101A12221D00DD8384 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "-";
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = brightBar/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		091058111A12221D00DD8384 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "-";
-				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = brightBar/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		091058121A12221D00DD8384 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = brightBarTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/brightBar.app/Contents/MacOS/brightBar";
-			};
-			name = Debug;
-		};
-		091058131A12221D00DD8384 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = brightBarTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/brightBar.app/Contents/MacOS/brightBar";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -493,24 +254,6 @@
 			buildConfigurations = (
 				091057EE1A11FA7600DD8384 /* Debug */,
 				091057EF1A11FA7600DD8384 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		091058141A12221D00DD8384 /* Build configuration list for PBXNativeTarget "brightBar" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				091058101A12221D00DD8384 /* Debug */,
-				091058111A12221D00DD8384 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		091058151A12221D00DD8384 /* Build configuration list for PBXNativeTarget "brightBarTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				091058121A12221D00DD8384 /* Debug */,
-				091058131A12221D00DD8384 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

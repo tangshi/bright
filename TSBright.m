@@ -14,7 +14,7 @@
 {
     // change level from int(0 ~ 100) to float (0 ~ 1)
     float lvl = (float)level / 100;
-    
+
     io_iterator_t iterator;
     kern_return_t result = IOServiceGetMatchingServices(kIOMasterPortDefault,
                                                         IOServiceMatching("IODisplayConnect"),
@@ -24,10 +24,10 @@
         io_object_t service;
         while ((service = IOIteratorNext(iterator))) {
             IODisplaySetFloatParameter(service, kNilOptions, CFSTR(kIODisplayBrightnessKey), lvl);
-            
+
             // Let the object go
             IOObjectRelease(service);
-            
+
             return;
         }
     }

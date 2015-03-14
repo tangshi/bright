@@ -38,6 +38,7 @@ int main(int argc, const char * argv[]) {
             printf("bright usage:\n");
             printf("bright [brightness]\n");
             printf("brightness is a integer value between 0 and 100.\n");
+            exit(-1);
         }
         else {
             NSString *str = [[NSString alloc] initWithUTF8String:argv[1]];

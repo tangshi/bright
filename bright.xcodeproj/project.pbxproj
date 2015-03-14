@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		091057EA1A11FA7600DD8384 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 091057E91A11FA7600DD8384 /* main.m */; };
-		09FB23241A1609ED00D1BFB6 /* TSBright.m in Sources */ = {isa = PBXBuildFile; fileRef = 09FB23231A1609ED00D1BFB6 /* TSBright.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,8 +25,6 @@
 /* Begin PBXFileReference section */
 		091057E61A11FA7600DD8384 /* bright */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = bright; sourceTree = BUILT_PRODUCTS_DIR; };
 		091057E91A11FA7600DD8384 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		09FB23221A1609ED00D1BFB6 /* TSBright.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSBright.h; sourceTree = "<group>"; };
-		09FB23231A1609ED00D1BFB6 /* TSBright.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSBright.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,8 +41,6 @@
 		091057DD1A11FA7500DD8384 = {
 			isa = PBXGroup;
 			children = (
-				09FB23221A1609ED00D1BFB6 /* TSBright.h */,
-				09FB23231A1609ED00D1BFB6 /* TSBright.m */,
 				091057E81A11FA7600DD8384 /* bright */,
 				091057E71A11FA7600DD8384 /* Products */,
 			);
@@ -141,7 +136,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				09FB23241A1609ED00D1BFB6 /* TSBright.m in Sources */,
 				091057EA1A11FA7600DD8384 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
